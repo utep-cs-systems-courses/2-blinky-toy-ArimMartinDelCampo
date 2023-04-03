@@ -34,9 +34,9 @@ void buzzer_set_period(short cycles){
 
   CCR0 = cycles;
 
-  CCR1 = cycles >> 5;
+  CCR1 = cycles >> 2;
 
-  CCR2 = cycles > 1;
+ 
 
 
 
